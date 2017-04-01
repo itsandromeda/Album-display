@@ -50,6 +50,17 @@ footer a:hover {
     margin: 0;
 }
 
+[id^="img0"] {
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+[id^="img0"]:hover {
+    opacity: 0.7;
+}
+
 .sepia {
     -webkit-filter: sepia(1);
     filter: sepia(1);
@@ -63,17 +74,6 @@ footer a:hover {
 .invert {
     -webkit-filter: invert(.8);
     filter: invert(.8);
-}
-
-[id^="img0"] {
-    display: inline-block;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-[id^="img0"]:hover {
-    opacity: 0.7;
 }
 
 .modal {
